@@ -1,1 +1,1 @@
-# JUST RUN index.html
+# JUST DOWNLOAD AND RUN index.html

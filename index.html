@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="assembly_runtime.js"></script>
+    <script type="text/javascript" src="hesapmakinesi.js"></script>
+
+    <title>Assembly Hesap Makinesi</title>
+</head>
+<body onload="set()" class="rainbow-bg">
+    <div id="a-b1bxonty-project">
+        <div id="suriyelilere-bilgilendirme">
+                <h3>Bilgi</h3>
+                <p>
+                    Kryp Arnold'un isteği üzerine geliştirilmiştir.
+                </p>
+                <br>
+                <p>Acı çektirmeyi severim.
+
+                    Epilepsi Worning heehhe biraz geç oldu ama!</p>
+                <br>
+                <p><a href="https://github.com/b1bxonty" target="_blank">2022 © B1BXONTY</a></p>
+        </div>
+        <div id="esad-nazife-hanimi-sikiyor">
+            <div class="box">
+                <div class="display">
+                    <input type="text" readonly size="18" id="gostericemBenSanaSonucu">
+                </div>
+                <div class="butoncuapi">
+                    <!--SATIR 1-->
+                    <p>
+                        <input type="button" class="button rainbow-bg" value="B1B" onclick='ekranaekle("")'>
+                        <input type="button" class="button rainbow-bg" value=" :) " onclick='ekranaekle("")'>
+                        <input type="button" class="button pink" value="%" onclick='ekranaekle("%")'>
+                        <input type="button" class="button pink" value="/" onclick='ekranaekle("/")'>
+                    </p>
+                    
+                    <!--SATIR 2-->
+                    <p>
+                        <input type="button" class="button black" value="7" onclick='ekranaekle("7")'>
+                        <input type="button" class="button black" value="8" onclick='ekranaekle("8")'>
+                        <input type="button" class="button black" value="9" onclick='ekranaekle("9")'>
+                        <input type="button" class="button pink" value="*" onclick='ekranaekle("*")'>
+                    </p>
+                    
+                    <!--SATIR 3-->
+                    <p>
+                        <input type="button" class="button black" value="4" onclick='ekranaekle("4")'>
+                        <input type="button" class="button black" value="5" onclick='ekranaekle("5")'>
+                        <input type="button" class="button black" value="6" onclick='ekranaekle("6")'>
+                        <input type="button" class="button pink" value="-" onclick='ekranaekle("-")'>
+                    </p>
+                    
+                    <!--SATIR 4-->
+                    <p>
+                        <input type="button" class="button black" value="1" onclick='ekranaekle("1")'>
+                        <input type="button" class="button black" value="2" onclick='ekranaekle("2")'>
+                        <input type="button" class="button black" value="3" onclick='ekranaekle("3")'>
+                        <input type="button" class="button pink" value="+" onclick='ekranaekle("+")'>
+                    </p>
+                        
+                    <!--SATIR 5-->
+                    <p>
+                        <input type="button" class="button black" value="0" onclick='ekranaekle("0")'>
+                        <input type="button" class="button black" value="." onclick='ekranaekle(".")'>
+                        <input type="button" class="button black" value="C" onclick='oncedenYukle("")'>
+                        <input type="button" class="button orange" value="=" onclick='hesapla()'>
+                    </p>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+</body>
+</html>

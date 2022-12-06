@@ -1,0 +1,176 @@
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Lucida Console", Monaco, monospace;
+    user-select: none;
+}
+p{
+    font-size: larger;
+}
+#a-b1bxonty-project {
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 10px;
+    border: 1px solid darkcyan;
+}
+#suriyelilere-bilgilendirme {
+    background: darkcyan;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+    width: 20em;
+    border-radius: 10px;
+    border: black solid 1px;
+    text-align: center;
+}
+#selector-area {
+    background: darkcyan;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+    width: 20em;
+    border-radius: 10px;
+    border: black solid 1px;
+    text-align: center;
+}
+#esad-nazife-hanimi-sikiyor {
+    margin: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.bar {
+    text-align: center;
+    background: darkcyan;
+    margin: 1em;
+    border-radius: 10px;
+}
+.box {
+    background-color: darkcyan;
+    height:300px;
+    width:250px;
+    border: black solid 1px;
+    border-radius:10px;
+    position:relative;
+} 
+.display {
+    background-color:#222;
+    width:220px;
+    position:relative;
+    left:15px;
+    top:20px;
+    height:40px;
+}
+.display input {
+    position:relative;
+    height:35px;
+    width: 216px;
+    color:black;
+    background-color:#bccd95;
+    font-size:21px;
+    text-align:right;
+}
+.butoncuapi {
+    position:relative;
+    top:10px;
+}
+.button {
+    width:40px;
+    height:30px;
+    border:none;
+    border-radius:8px;
+    margin-left:.90em;
+    cursor:pointer;
+    border-top:2px solid transparent;
+}
+.button.gray {
+    color:white;
+    background-color:#6f6f6f;
+    border-bottom:black 2px solid;
+    border-top:2px #6f6f6f solid;
+}
+.button.pink {
+    color:black;
+    background-color:#ff4561;
+    border-bottom:black 2px solid;
+}
+.button.black {
+    color:white;
+    background-color:black;
+    border-bottom:black 2px solid;
+    border-top:2px gray solid;
+}
+.button.orange {
+    color:black;
+    background-color:#FF9933;
+    border-bottom:black 2px solid;
+    border-top:2px #FF9933 solid;
+}
+.gray:active {
+    border-top:black 2px solid;
+    border-bottom:2px #6f6f6f solid;
+}
+.pink:active {
+    border-top:black 2px solid;
+    border-bottom:#ff4561 2px solid;
+}
+.black:active {
+    border-top:black 2px solid;
+    border-bottom:#303030 2px solid;
+}
+.orange:active {
+    border-top:black 2px solid;
+    border-bottom: #FF9933 2px solid;
+}
+.rainbow-bg{
+    animation: rainbow-bg 2.5s linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes rainbow-bg{
+    100%,0%{
+        background-color: rgb(255,0,0);
+    }
+    8%{
+        background-color: rgb(255,127,0);
+    }
+    16%{
+        background-color: rgb(255,255,0);
+    }
+    25%{
+        background-color: rgb(127,255,0);
+    }
+    33%{
+        background-color: rgb(0,255,0);
+    }
+    41%{
+        background-color: rgb(0,255,127);
+    }
+    50%{
+        background-color: rgb(0,255,255);
+    }
+    58%{
+        background-color: rgb(0,127,255);
+    }
+    66%{
+        background-color: rgb(0,0,255);
+    }
+    75%{
+        background-color: rgb(127,0,255);
+    }
+    83%{
+        background-color: rgb(255,0,255);
+    }
+    91%{
+        background-color: rgb(255,0,127);
+    }
+}
+
+/************************************************/
+/*EPİLEPSİ KRİZİ HEHEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
